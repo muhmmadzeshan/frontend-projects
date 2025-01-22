@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Potfolio website</title>
+</head>
+<style>
+
+</style>
+<body>
+  <header class="section-navbar">
+    <div class="logo">
+      <img src="PORTFOLIO_LOGO-removebg-preview.png" alt="LOGO" height="200px">
+      <h4> Muhmmad Zeeshan:</h4>
+    </div>
+    <nav class="nav-anchor">
+      <a href="basic html.html">Home</a>
+      <a href="basic html.html">Project</a>
+      <a href="basic html.html">Artical</a>
+      <a href="basic html.html">Contact</a>
+    </nav>
+    <div class="nav-footer">
+      <h1> Frontend Developler:</h1>
+      <p> potfolio website without any styling. </p>
+      <hr>
+      <hr>
+    </div>
+  </header>
+  <main>
+    <section class="Project">
+      <h1>Projects:</h1>
+    <ul>
+     <li>Html only Portfolio</li>
+     <li>Calculator</li>
+     <li>Quiz App</li>
+     <li>Countdown</li>
+     <li>Product upcoming Page</li>
+    </ul>
+    </section>
+    <section class="work-experience">
+      <h3>Work-Experience:</h3>
+      <p>roadmap.sh</p>
+      <p>Solveed all the fronted projects</p>
+      <a href="https://github.com/muhmmadzeshan">Vist my profile</a>
+    </section>
+    <section>
+      <h3>OpenSource Work:</h3>
+      <p>Contributed to 50 open source projects.Made my own projects with 200 GitHub Stars.</p>
+      <a href="https://github.com/muhmmadzeshan">Vist my GitHub Profile</a>
+    </section>
+    <section>
+      <h3> Education:</h3>
+      <p>Graduate with 3.76 out of 4CGPA. won hackathons</p>
+      <p>course I took:</p>
+      <ul>
+        <li>OOPS</li>
+        <li> DSA</li>
+        <li>WEB ENGENRING</li>
+        <li>Artifical intelligence</li>
+        <li>Humen computing</li>
+        <li> Computer graphics</li>
+        <li>DMS</li>
+      </ul>
+    </section>
+    <hr>
+    <section>
+    <h1>Reviws from my Teacher: </h1>
+    <p>jhon doe was a brillent student always stood out with his assignments</p>
+    <h4>Jhon Deo</h4>
+    <h4>Assistant Teacher</h4>
+  </section>
+  <section>
+    <h1>Reviws from my Teacher: </h1>
+    <p>jhon doe was a brillent student always stood out with his assignments</p>
+    <h4>Jhon Deo</h4>
+    <h4>Assistant Teacher</h4>
+  </section>
+  <section>
+    <h1>Reviws from my Teacher: </h1>
+    <p>jhon doe was a brillent student always stood out with his assignments</p>
+    <h4>Jhon Deo</h4>
+    <h4>Assistant Teacher</h4>
+  </section>
+  </main>
+  <header>
+    <h3> &copy; all rights are reserved 2025</h3>
+  </header>
+</body>
+</html>
