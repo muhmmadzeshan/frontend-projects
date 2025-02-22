@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project 2.css">
+  <title> Project 2</title>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo (2).png" alt=" logo" width="100" height="100">
+        <h2> My Portfolio</h2>
+      </div>
+      <div class="nav-links">
+        <ul>
+         <a href=""> <li> Home</li></a>
+        <a href=""><li> Project </li></a>
+        <a href=""><li> Artical</li></a>
+        <a href=""><li> Contant</li></a>
+        </ul>
+      </div>
+    </div>
+    <h1 class="nav-heading1"> Welcome to my portfolio</h1>
+  </nav>
+  <main>
+    <div class="projects">
+    <div class="project">
+      <h2> My Project :</h2>
+      <p> Calculator</p>
+      <p> To - do list</p>
+      <p> Weather app</p>
+      <p> Quiz game</p>
+    </div>
+    <div class="project">
+      <h2> My Project :</h2>
+      <p> Calculator</p>
+      <p> To - do list</p>
+      <p> Weather app</p>
+      <p> Quiz game</p>
+    </div>
+    <div class="project">
+      <h2> My Project :</h2>
+      <p> Calculator</p>
+      <p> To - do list</p>
+      <p> Weather app</p>
+      <p> Quiz game</p>
+    </div>
+    <div class="project">
+      <h2> My Project :</h2>
+      <p> Calculator</p>
+      <p> To - do list</p>
+      <p> Weather app</p>
+      <p> Quiz game</p>
+    </div>
+    <div class="project">
+      <h2> My Project :</h2>
+      <p> Calculator</p>
+      <p> To - do list</p>
+      <p> Weather app</p>
+      <p> Quiz game</p>
+    </div>
+    <div class="project">
+      <h2> My Project :</h2>
+      <p> Calculator</p>
+      <p> To - do list</p>
+      <p> Weather app</p>
+      <p> Quiz game</p>
+    </div>
+  </div>
+  <h2 class="reviews-heading"> Teacher  Reviews : </h2>
+  <div class="reviews">
+       
+    <div class="cards">
+      <p> John doe was a onllant
+        student; always stood out
+        vith his assignments. </p>
+      <h3> Jhon Doe</h3>
+      <h3> Assistant Teacher</h3>
+    </div>
+    <div class="cards">
+      <p> John doe was a onllant
+        student; always stood out
+        vith his assignments. </p>
+      <h3> Jhon Doe</h3>
+      <h3> Assistant Teacher</h3>
+    </div>
+    <div class="cards">
+      <p> John doe was a onllant
+        student; always stood out
+        vith his assignments. </p>
+      <h3> Jhon Doe</h3>
+      <h3> Assistant Teacher</h3>
+    </div>
+
+  </div>
+  </main>
+  <footer>
+    <h1> &copy; all rights are reserved</h1>
+  </footer>
+  
+</body>
+</html>
+
+
+ Here we write css :
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: rgb(18, 18, 18);
+  color: white;
+
+}
+nav{
+  height: 16rem;
+  width: 100%;
+  background-color: lightskyblue;
+  border-bottom: 2px solid wheat;
+  & .nav-heading1{
+    text-transform: capitalize;
+    margin: 1.5rem 45rem;
+    font-size: 2.5rem;
+
+  }
+}
+.navbar{
+ color: rgb(20, 20, 20);
+ display: flex;
+ justify-content: space-between;
+ margin: 0.3rem;
+
+
+ & .logo{
+  color: rgb(12, 12, 12);
+  text-transform: capitalize;
+  display: flex;
+  & h2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+ }
+ & .nav-links{
+  margin-top: 2.4rem;
+ & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+   & a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+}
+}
+
+/***** main *****/ 
+main{
+  border-top: 2px solid wheat;
+  margin-top: 0.5rem;
+  & .reviews-heading{
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-left: 35rem;
+  }
+ & .projects{
+   display: flex; 
+   flex-wrap: wrap;
+  }
+  & .project{
+    border: 2px solid wheat;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    padding: 3rem 0 0 3rem;
+    height: 30rem;
+    width: 35rem;
+    background-color: rgb(12, 167, 228);
+    color: black;
+    & h2{
+      font-size: 2.9rem;
+      text-transform: capitalize;
+      font-weight: 700;
+    }
+    & p{
+      margin-top: 1.8rem;
+      font-size: 1rem;
+      text-transform: capitalize;
+      font-weight: 700;
+    }
+  }
+  & .reviews{
+    color: aliceblue;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    display: flex;
+    & h2{
+      font-size: 4.5rem;
+    }
+    & .cards{
+    height: 14rem;
+    width: 25rem;
+    padding: 1.5rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    background-color: rgb(12, 167, 228);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+     & h3{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: rgb(7, 7, 7);
+        opacity: 0.6;
+     }
+        
+      & p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: white;
+      }
+    }
+
+  }
+}
+footer{
+  h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white;
+    margin-left: 20rem;
+    margin-bottom: 3rem;
+  }
+}
+
+
+/***** End main *****/
+
